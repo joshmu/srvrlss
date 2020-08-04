@@ -1,8 +1,18 @@
 # Serverless Functions
 
-Playing with _Vercel_, can't believe how easy it was!
+A bunch of serverless functions!
 
-## Instructions
+### Hello
+
+`/api/hello`
+Will say hello.
+
+### Email
+
+`/api/email`
+Provide transporter and email config as a json object to send emails. Perfect for _contact us_ pages.
+
+## Instructions using Vercel
 
 Serverless functions are held in the `api/` folder.
 
