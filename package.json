@@ -1,0 +1,23 @@
+{
+  "name": "serverless-play",
+  "version": "1.0.0",
+  "description": "Playing with _Vercel_, can't believe how easy it was!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshmu/serverless-play.git"
+  },
+  "keywords": [],
+  "author": "Josh Mu <hello@joshmu.com> (https://joshmu.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshmu/serverless-play/issues"
+  },
+  "homepage": "https://github.com/joshmu/serverless-play#readme",
+  "dependencies": {
+    "nodemailer": "^6.4.11"
+  }
+}
