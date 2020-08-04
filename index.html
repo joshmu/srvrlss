@@ -7,7 +7,29 @@
   </head>
   <body>
     <h1>Vercel Play - Serverless Functions</h1>
-    <p>This is a serverless function:</p>
-    <a href="/api/hello">/api/hello</a>
+    <ul>
+      <li>
+        <p>Say hello:</p>
+        <a href="/api/hello">/api/hello</a>
+      </li>
+      <li>
+        <p>Send an email:</p>
+        <a href="/api/email">/api/email</a>
+        <p>Provide the below information as json in the request:</p>
+        <ul>
+          <li>from, // sender address</li>
+          <li>to, // list of receivers</li>
+          <li>subject, // Subject line</li>
+          <li>text, // plain text body</li>
+          <li>html, // html body</li>
+          <li>// settings</li>
+          <li>host,</li>
+          <li>port,</li>
+          <li>secure,</li>
+          <li>smtp_user,</li>
+          <li>smtp_pass,</li>
+        </ul>
+      </li>
+    </ul>
   </body>
 </html>
