@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/joshmu/serverless-play#readme",
   "dependencies": {
-    "nodemailer": "^6.4.11"
+    "nodemailer": "^6.4.16"
   }
 }
